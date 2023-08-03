@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head{
+    background:#d2e226;
+    text-align: end;
+    padding: 0 30px;
+}
