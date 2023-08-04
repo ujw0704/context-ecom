@@ -2,6 +2,7 @@ import React, { useEffect ,useState, useContext} from 'react'
 import { CartContent } from '../App'
  import axios from "axios"
  import "./Products.css"
+//  import {Link} from 'react-router-dom'
 
 
 
@@ -24,7 +25,7 @@ function Products() {
 
 
          }
-      console.log(cart)
+    //   console.log(cart)
   return (
     <div className='container'>
         {
@@ -33,7 +34,7 @@ function Products() {
             products.map((product, index)=>{
                 return <div className="product"key={index}>
                     <div className='img'> 
-                    <img src ={product.image} alt=''/>
+                    <img  src ={product.image} alt=''/>
                     </div>
                     <h1>{ product.title }</h1>
                     <p>${product.price}.0</p>
