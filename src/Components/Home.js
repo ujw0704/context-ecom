@@ -1,11 +1,9 @@
-import React from 'react'
- import Head from './Head'
-import Products from './Products'
+import React from 'react' 
+import Products from './Products'  
 function Home() {
   return (
-    <div>
-        {/* <Head />  */}
-         <Products />  
+    <div> 
+         <Products />   
     </div>
   )
 }

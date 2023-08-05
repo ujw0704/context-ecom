@@ -2,6 +2,7 @@ import React, {useContext}from 'react'
 import { CartContent } from '../App';
 // import  {useParms} from 'react-router-dom'
 
+
 function Productcart() {
  
     const {cart} = useContext(CartContent) 
