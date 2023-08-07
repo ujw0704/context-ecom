@@ -5,14 +5,17 @@
 
  function SingleProduct() {
 
-    const {singleproduct} = useContext(CartContent)
-
+    const {singleproduct ,cart,setCart } = useContext(CartContent)
+    // const [cart, setCart] = useContext(CartContent)
 
 
     function handleClick(e,singleProduct){
         e.preventDefault()
-        
+          setCart([...cart,singleproduct])
+    
+        console.log("hello")
     }
+  
    return (
      <div><div className="product">
      <div className='img'> 

@@ -32,11 +32,11 @@ function Products() {
 
      function handlesubmit(e,product) {
       e.preventDefault()
-      setSingleProduct(product)
+      setSingleProduct(...singleproduct,product)
       navigate('/singleproduct')
-console.log("hello")
       
-     }
+      console.log("hello")
+    }
 
      console.log(singleproduct)
   return (
@@ -52,7 +52,7 @@ console.log("hello")
                     <h1>{ product.title }</h1>
                     <p>${product.price}.0</p>
                      <a href='#!' onClick={e=>{handleClick(e,product)}}>add to cart</a> 
-                      {/* <a href='#!' onDoubleClick={ e=>{handlesubmit(e.product)}}>singleProduct</a>  */}
+                     
                 </div>
                 
             })

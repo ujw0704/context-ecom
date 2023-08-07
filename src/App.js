@@ -12,7 +12,7 @@ import SingleProduct from './Components/SingleProduct';
 
 function App() {
   const [cart, setCart] = useState([])
-   const [singleproduct,setSingleProduct] =useState({})
+   const [singleproduct,setSingleProduct] =useState([])
   return (
     <>
     <CartContent.Provider value={{cart, setCart, singleproduct,setSingleProduct}}  >
