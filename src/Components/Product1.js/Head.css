@@ -1,0 +1,22 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.product{
+    width: 150px;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 500px;
+    height: 98px;
+}
+
+button{
+    background:#3467d0 ;
+    margin-left: 500px;
+    height: 50px;
+    width:98px ;
+}

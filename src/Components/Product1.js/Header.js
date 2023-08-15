@@ -1,6 +1,7 @@
 import React ,{useContext}from 'react'
 import Product from './Product';
 import { CartContent } from './Main';
+import Headers from "./Head.css"
 
 
 function Header() {
@@ -10,7 +11,7 @@ function Header() {
   
 
   return (
-    <div>
+    <div className='home'>
       <h1>{cart.length}</h1>
       <h1>totalCost:{cost}</h1>
      

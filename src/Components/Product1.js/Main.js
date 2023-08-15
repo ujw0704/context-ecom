@@ -1,7 +1,7 @@
 import React,{createContext,useState} from 'react'
 import Head from './Header'
 import Product from './Product'
- import Heades from "./Head.css"
+ import Headers from "./Head.css"
 
 export  const CartContent = createContext()
 function Main() {
